@@ -7,4 +7,8 @@ public class HelloWorldController {
     public String hello()  throws Exception{
         return "HelloWorld ,Spring Boot!";
     }
+    @RequestMapping("/test")
+    public String test(){
+        return "test";
+    }
 }
